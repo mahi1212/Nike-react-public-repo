@@ -10,41 +10,44 @@
 
 </head>
 <body>
-    <header class="container bg-white px-5">
-        <nav class="navbar navbar-expand-lg d-flex justify-content-between pt-5">
-            <a class="navbar-brand" href="#">
-                <img src="icons/Logo.png" alt="" width="300" height="40" class="d-inline-block align-text-top">
+    <header class="px-md-5 pb-5">
+        <nav class="navbar container navbar-expand-md pt-5">
+            <a class="navbar-brand text-uppercase fw-bolder" href="#">
+                Panguin <span class="text-warning">Fashion</span>
             </a>
 
-            <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-                    <div class="navbar-nav fw-bold align-items-center">
-                        <a class="nav-link text-dark m-3" href="#">Home</a>
-                        <a class="nav-link text-dark m-3" href="#">Product</a>
-                        <a class="nav-link text-dark m-3" href="#">About us</a>
-                        <a class="nav-link text-dark ms-3" href="#">Contact us</a>
-                    </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="https://img.icons8.com/plasticine/25/000000/menu.png"/>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" >
+                <div class="navbar-nav fw-bold align-items-center">
+                    <a class="nav-link text-dark m-3" href="#">Home</a>
+                    <a class="nav-link text-dark m-3" href="#">Product</a>
+                    <a class="nav-link text-dark m-3" href="#">About us</a>
+                    <a class="nav-link text-dark ms-3" href="#">Contact us</a>
                 </div>
             </div>
         </nav>
-        <section id="home" class="d-flex justify-content-between align-items-center">
-            <div class="w-50">
-                <img src="images/Group 33092.png" class="img-fluid" alt="">
+        <section id="home" class="row">
+            <div class="col-md-6">
+                <div class="p-2">
+                    <img src="images/Group 33092.png" class="img-fluid py-5" alt="">
+                </div>
             </div>
-            <div>
-                <h1 class="text-uppercase text-warning mb-4">NIKE REACT
-                    <br><span class="text-uppercase text-dark">infinity run 2</span>
-                </h1>
-                <p class="w-75 text-secondary mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui at</p>
-                <button class="btn btn-primary px-4 fs-6 text-uppercase py-3">
-                    <div class=" d-flex align-items-center">
-                        <img src="icons/shopping-cart 1.png" class="me-2" height="24px" width="24px" alt="">
-                        Buy Now
-                    </div>
-                </button>
+
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="ps-md-5" style="margin-left: 30px;">
+                    <h1 class="text-uppercase text-warning mb-4">NIKE REACT
+                        <br><span class="text-uppercase text-dark">infinity run 2</span>
+                    </h1>
+                    <p class="w-75 text-secondary mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui at</p>
+                    <button class="btn btn-primary px-4 fs-6 text-uppercase py-3">
+                        <div class=" d-flex align-items-center">
+                            <img src="icons/shopping-cart 1.png" class="me-2" height="24px" width="24px" alt="">
+                            Buy Now
+                        </div>
+                    </button>
+                </div>
             </div>
         </section>  
     </header>
